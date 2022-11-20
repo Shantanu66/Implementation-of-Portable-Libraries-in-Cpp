@@ -16,7 +16,7 @@ public:
     ~TreeNode()
     {
         //cout<<"Tree Deleted!"<<endl;
-        for (int i = 0; i < children.size(); i++)
+        for (int i = 1; i < children.size(); i++)
         {
             delete children[i];
         }
