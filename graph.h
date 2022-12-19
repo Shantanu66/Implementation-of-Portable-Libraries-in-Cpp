@@ -24,7 +24,7 @@ public:
             List[sv].insert(fv);
         }
     }
-    //using adjacency matrix
+    //using adjacency matrix(short)
     void createusingadjacencymatrix(int edges)
     {
 
